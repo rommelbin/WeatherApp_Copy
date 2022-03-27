@@ -1,0 +1,9 @@
+<?php
+
+namespace App\ValidationRules;
+
+class UserRules implements BaseRules
+{
+    protected array $customMessages;
+    protected array $registerRules;
+}
